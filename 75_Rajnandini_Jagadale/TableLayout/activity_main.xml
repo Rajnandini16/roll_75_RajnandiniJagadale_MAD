@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="16dp">
+
+    <!-- Header Row -->
+    <TableRow
+        android:background="#DDDDDD"
+        android:padding="8dp">
+
+        <TextView
+            android:text="Product"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Price"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Qty"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 1 -->
+    <TableRow>
+
+        <TextView
+            android:text="Laptop"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="₹55,000"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="2"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 2 -->
+    <TableRow>
+
+        <TextView
+            android:text="Mobile"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="₹20,000"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="5"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 3 -->
+    <TableRow>
+
+        <TextView
+            android:text="Headphones"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="₹2,500"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="10"
+            android:padding="8dp"/>
+    </TableRow>
+
+</TableLayout>
